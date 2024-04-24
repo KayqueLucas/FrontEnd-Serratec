@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alunos</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <h1>Login Zepa Software</h1>
+    <form action="/cadastro/novo">
+        <div>
+            <label for="login">Login</label>
+            <input type="login" name="Login"id="login" 
+            placeholder="Apenas Letras Minusculas" value="zepa"/>
+        </div>
+        <div>
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha">
+        </div>
+        <div>
+            <input type="checkbox" name="aceito" id="aceito" value="sim"
+            checked />Li e aceito os termos.
+        </div>
+        <input type="radio" name="civil" id="civil" value="solteiro">Solteiro <br>
+        <input type="radio" name="civil" id="civil" value="casado">Casado <br>
+        <input type="radio" name="civil" id="civil" value="viuvo">Viúvo <br>
+
+
+        <div class="rodape">
+            <input type="button" value="Cadastrar">
+            <button>Entrar</button>
+        </div>    
+    </form>
+    <div class="redonda">&nbsp;</div>
+</body>
+</html>

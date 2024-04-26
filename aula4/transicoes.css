@@ -1,0 +1,9 @@
+img{
+    width: 60%;
+}
+img:hover{
+   opacity: 0.1; 
+   transition-delay:3s;
+   transition-duration:3s;
+   content: url("https://www.tribunapr.com.br/wp-content/uploads/2022/10/05115944/McFlurry-Brasil-770x440.jpg");
+}

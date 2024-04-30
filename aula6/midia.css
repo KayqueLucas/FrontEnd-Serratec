@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    /* align-items: stretch; */
+    justify-content: space-between;
+}
+.col{
+    flex: 1;
+    background-color: aquamarine;
+    margin: 5px;
+}
+.col2{
+    background-color: chocolate;
+    margin: 5px;
+
+}
+
+@media only screen and (max-width: 768px){
+    .col{
+        background-color: blueviolet;
+    }
+}
